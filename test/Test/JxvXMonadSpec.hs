@@ -9,8 +9,6 @@ import Control.Monad.TestFixture.TH
 
 import JxvXMonad
 
-mkFixture "Fixture" [''Wires]
-
 spec :: Spec
 spec = do
   describe "main" $ do
